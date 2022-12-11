@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -15,9 +17,9 @@ TagManager:
   - 
   - Ground
   - Player
-  - 
-  - 
-  - 
+  - Platform
+  - Stompbox
+  - Bullets
   - 
   - 
   - 
@@ -39,14 +41,23 @@ TagManager:
   - 
   m_SortingLayers:
   - name: BG
-    uniqueID: 2453040645
+    uniqueID: 3483273881
+    locked: 0
+  - name: World
+    uniqueID: 2542385115
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: World
-    uniqueID: 1882799823
+  - name: Effects
+    uniqueID: 3893664107
+    locked: 0
+  - name: Pickups
+    uniqueID: 1297838539
+    locked: 0
+  - name: Enemies
+    uniqueID: 3251775351
     locked: 0
   - name: Player
-    uniqueID: 2086829831
+    uniqueID: 2989738365
     locked: 0
